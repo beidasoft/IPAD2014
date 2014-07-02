@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>jQuery Mobile: Demos and Documentation</title>
+<style type="text/css">
+img{ border:0 none;}
+.hasline table { border-left:solid 0px; border-top:solid 0px; border-right:solid 0px; border-bottom:solid 0px;font-size:25px;}
+.hasline th { border-top:solid 1px #000; border-left:solid 1px #000; border-right:solid 1px #000; border-bottom:solid 1px #000;font-size:25px;}
+.hasline td { border-top:solid 1px #000; border-left:solid 1px #000; border-right:solid 1px #000; border-bottom:solid 1px #000;font-size:25px;}
+.JianLi table { border:0 none; border-style:none;font-size:25px;}
+.JianLi td { border:0 none; border-style:none;font-size:25px; vertical-align:top;}
+</style>
+<script type="text/javascript">
+</script>
+</head>
+<body> 
+<div class="hasline">
+             	<table cellspacing="0" width="100%" cellpadding="0">
+				
+                  <tr>
+                    <td width="146" height="50" align="center" class="name">姓&nbsp;&nbsp;&nbsp;名</td>
+                    <td width="134" align="center" id="A0101" ></td>
+                    <td width="146" align="center" class="sex">性&nbsp;&nbsp;&nbsp;别</td>
+                    <td width="140" align="center" id="GB22611_A0104_DmCpt" ></td>
+                    <td width="119" align="center" class = "birth">出生年月<br />(岁)</td>
+                    <td width="227" align="center" id="A0107"></td>
+                    <td width="160" rowspan="4"><img id="image" src=" " alt="" title="" width="188" height="235" align="center"/></td>
+                  </tr>
+                  <tr>
+                    <td height="50" align="center" class="nation">民&nbsp;&nbsp;&nbsp;族</td>
+                    <td align="center" id="GB3304_A0117_DmCpt"></td>
+                    <td align="center" class = "origin">籍&nbsp;&nbsp;&nbsp;贯</td>
+                    <td align="center" id="A01_A0111B_BJXA0111C"></td>
+                    <td align="center" class="bornplace">出&nbsp;&nbsp;生&nbsp;&nbsp;地</td>
+                    <td align="center" id="A0114B"></td>
+                  </tr>
+                  <tr>
+                    <td align="center" height="50" class="atime">入&nbsp;&nbsp;&nbsp;党<br />时&nbsp;&nbsp;&nbsp;间</td>
+                    <td align="center" id="A0144"></td>
+                    <td align="center" class="worktime">参加工<br />作时间</td>
+                    <td align="center" id="A0134"></td>
+                    <td align="center" class="health">健康状况</td>
+                    <td align="center" id="GB22613_A0127_DmCpt"></td>
+                  </tr>
+                  <tr>
+                    <td align="center" height="50" class="professional">专业技<br />术职务</td>
+                    <td align="center" colspan="2" id="A0601"></td>
+                    <td align="center" class="specialty">熟悉专业<br />有何专长</td>
+                    <td align="center" colspan="2" id="A0187A"></td>
+                   </tr>
+                  <tr>
+                    <td rowspan="2" align="center">学&nbsp;&nbsp;&nbsp;历<br />学&nbsp;&nbsp;&nbsp;位</td>
+                    <td align="center" height="50" class="BJJA08_BJJA0814_BJJA0830_QRZ">全日制<br />教&nbsp;&nbsp;&nbsp;育</td>
+                    <td colspan="2" id="BJJA08_BJJA0814_BJJA0830_QRZ"></td>
+                    <td align="center" class="auniversity">毕业院校<br />系及专业</td>
+                    <td colspan="2" id="BJJA08_BJJA0806_BJJA0809_QRZ"></td>
+                  </tr>
+                  <tr>
+                    <td align="center" height="50" class="beducation">在&nbsp;&nbsp;&nbsp;职<br />教&nbsp;&nbsp;&nbsp;育</td>
+                    <td colspan="2" id="BJJA08_BJJA0814_BJJA0830_ZZ"></td>
+                    <td align="center" class="buniversiity">毕业院校<br />系及专业</td>
+                    <td colspan="2" id="BJJA0806_BJJA0809_ZZ"></td>
+                  </tr>
+                  <tr>
+                    <td height="50" colspan="2" align="center" class="apost">现&nbsp;&nbsp;&nbsp;任&nbsp;&nbsp;&nbsp;职&nbsp;&nbsp;&nbsp;务</td>
+                    <td colspan="5" id="A02_A0215_All_MingCe"></td>
+                  </tr>
+                  <tr> 
+                    <td align="center" class="resume"><br/><br/><br/><br/><br/>简<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>历<br/><br/><br/><br/><br/></td>
+                    <td colspan="6" id="A17_Jianli" valign="top"></td>
+                  </tr>
+				</table>
+                 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				  <table cellspacing="0" width="100%" cellpadding="0">
+                  <tr>
+                    <td align="center" height="100" class="reward">奖<br />
+                    惩<br />情<br />况</td>
+                    <td colspan="6" id="A14_A14Z2_A14Z3"  style="padding:10px;">
+                    
+                   </td>
+                  </tr>
+				  <tr>
+                    <td align="center" height="100" class="reward">培<br />
+                    训<br />情<br />况</td>
+                    <td colspan="6" id="A11_BJXA1111_RMB" valign="top" style="padding:10px;">
+                    
+                   </td>
+                  </tr>
+                  <tr>
+                    <td align="center" height="100" class="assessment">年&nbsp;&nbsp;&nbsp;度<br />考&nbsp;&nbsp;&nbsp;核<br />结&nbsp;&nbsp;&nbsp;果</td>
+                    <td colspan="6" id="A15_RMB"></td>
+                  </tr>
+                  <tr border:solid 1px #000;>
+                    <td rowspan="8" align="center">主<br />要<br />家<br />庭<br />成<br />员<br />及<br />社<br />会<br />关<br />系</td>
+                    <td align="center" height="50">称谓</td>
+                    <td align="center">姓名</td>
+                    <td align="center">年龄</td>
+                    <td align="center">政治面貌</td>
+                    <td colspan="2"align="center">工作单位及职务</td>
+                  </tr>
+                  <tr id="n0"> 
+				   <td align="center" height="50" id="GB4761_A3604B_DmCpt"></td>
+                    <td align="center" id="A3601"></td>
+                    <td align="center" id="A3607"></td>
+                    <td align="center" id="GB4762_A3627_DmCpt"></td>
+                    <td colspan="2" align="center" id="A3611"></td>
+				  </tr>
+                  <tr id="n1"> 
+				    <td align="center" height="50" id="GB4761_A3604B_DmCpt1"></td>
+                    <td align="center" id="A36011"></td>
+                    <td align="center" id="A36071"></td>
+                    <td align="center" id="GB4762_A3627_DmCpt1"></td>
+                    <td colspan="2" align="center" id="A36111"></td>
+				  </tr>
+                  <tr id="n2"> 
+				    <td align="center" height="50" id="GB4761_A3604B_DmCpt2"></td>
+                    <td align="center" id="A36012"></td>
+                    <td align="center" id="A36072"></td>
+                    <td align="center" id="GB4762_A3627_DmCpt2"></td>
+                    <td colspan="2" align="center" id="A36112"></td>
+				  </tr>
+                  <tr id="n3"> 
+				    <td align="center" height="50" id="GB4761_A3604B_DmCpt3"></td>
+                    <td align="center" id="A36013"></td>
+                    <td align="center" id="A36073"></td>
+                    <td align="center" id="GB4762_A3627_DmCpt3"></td>
+                    <td colspan="2" align="center" id="A36113"></td>
+				  </tr>
+				  <tr id="n2"> 
+				    <td align="center" height="50" id="GB4761_A3604B_DmCpt4"></td>
+                    <td align="center" id="A36014"></td>
+                    <td align="center" id="A36074"></td>
+                    <td align="center" id="GB4762_A3627_DmCpt4"></td>
+                    <td colspan="2" align="center" id="A36114"></td>
+				  </tr>
+                  <tr id="n3"> 
+				    <td align="center" height="50" id="GB4761_A3604B_DmCpt5"></td>
+                    <td align="center" id="A36015"></td>
+                    <td align="center" id="A36075"></td>
+                    <td align="center" id="GB4762_A3627_DmCpt5"></td>
+                    <td colspan="2" align="center" id="A36115"></td>
+				  </tr>
+                  <tr>
+                    <td align="center" height="50">&nbsp;</td>
+                    <td align="center">&nbsp;</td>
+                    <td align="center">&nbsp;</td>
+                    <td align="center">&nbsp;</td>
+                    <td colspan="2" align="center">&nbsp;</td>
+                  </tr>
+
+                  <tr>
+                    <td align="center" height="100">呈<br />报<br />单<br />位</td>
+                    <td height="50" colspan="6">
+                    <p align="center">同意&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                    <p align="right">年&nbsp;&nbsp; 月&nbsp;&nbsp; 日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></td>
+                  </tr>
+                  <tr>
+                    <td align="center" height="100">审&nbsp;&nbsp;&nbsp;意<br />批&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>机&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>关&nbsp;&nbsp;&nbsp;见</td>
+                    <td height="50" colspan="2">
+                    	<p align="right">盖&nbsp;&nbsp;&nbsp;章&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                        <p align="right">年&nbsp;&nbsp; 月&nbsp;&nbsp; 日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>                    </td>
+                    <td align="center">行&nbsp;&nbsp;&nbsp;政<br/>机&nbsp;&nbsp;&nbsp;关<br/>任&nbsp;&nbsp;&nbsp;免<br/>意&nbsp;&nbsp;&nbsp;见</td>
+                    <td colspan="3">
+                    	<p align="right">盖&nbsp;&nbsp;&nbsp;章&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                        <p align="right">年&nbsp;&nbsp; 月&nbsp;&nbsp; 日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                    </td>
+                  </tr>
+                </table>
+	</div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>数据安全</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>联网删除数据：</string>
+			<key>Key</key>
+			<string>isDeleteData</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>删除时间</string>
+			<key>Key</key>
+			<string>deleteTime</string>
+			<key>Titles</key>
+			<array>
+				<string>15秒</string>
+				<string>30秒</string>
+				<string>60秒</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>15秒</string>
+				<string>30秒</string>
+				<string>60秒</string>
+			</array>
+			<key>DefaultValue</key>
+			<string>15秒</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>

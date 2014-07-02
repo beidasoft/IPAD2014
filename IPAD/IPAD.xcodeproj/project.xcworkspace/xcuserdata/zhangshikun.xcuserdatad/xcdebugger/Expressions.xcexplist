@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[ListViewController tableView:cellForRowAtIndexPath:]:ListViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ContentViewController show:]:ContentViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[[delegate tableView] cellForRowAtIndexPath:nowIndexPath]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,74 @@
+//
+// Prefix header for all source files of the 'IPAD' target in the 'IPAD' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import "UINavigationCustomAnimation.h"
+    #define UPDATEFILENAME @"update"
+#import "IPADAppDelegate.h"
+#import "SQLiteOptions.h"
+#import <QuartzCore/QuartzCore.h>
+
+#define theApp ([(IPADAppDelegate *)[[UIApplication sharedApplication] delegate]secondNavigation])
+#endif
+
+
+#ifndef __OPTIMIZE__
+#    define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#    define NSLog(...) {}
+#endif
+
+
+//左右视图控制器的宽度
+#define kEachViewController_Width 481
+
+//----------------------------------------------------------------------------------
+//
+//tabbarindex
+//----------------------------------------------------------------------------------
+
+
+
+#define KTabIndex_Feed_AND_Checkins 0
+#define KTabIndex_Maopao 3
+#define KTabIndex_News 1
+#define KTabIndex_Self 2
+//----------------------------------------------------------------------------------
+//
+//各种宽度
+//----------------------------------------------------------------------------------
+#define KMasterView_Landscape_width 455
+#define KMasterView_Portrait_width 455
+
+#define KDetailView_Landscape_width 490
+#define KDetailView_Portrait_width 490
+
+
+
+#define KPICTURERECT_WIDTH  132//132
+#define KPICTURERECT_HEIGHT  165
+
+#define KLOGORECT CGRectMake((1024-226)/2+15, 5, 226, 50)
+
+#define kLogionImageName @"login.png"//y
+#define kLogoBackgroundImageName @"logoImage.png"//y
+#define kLogoTitleImageName @"logoTitle.png"//y
+#define kFirstPageImageName @"firstPage.png"//y
+
+#define kPersonResumeHtmlName @"personResume.html"
+
+#define kFormTableName @"IPAD_A"
+#define kUnitIDName @"B00"
+
+#define KREDFRAME CGRectMake(25, 74,855, 635)
+#define KCONTENTFRAME CGRectMake(30, 79 ,845.0, 625)//79,625
+#define KCONTENTOUTFRAME CGRectMake(1024, 20, 924, 748)
+#define KCONTENTINFRAME CGRectMake(100, 20, 924, 748)
+
+#define isCanDeleteData [[NSUserDefaults standardUserDefaults] stringForKey:@"isDeleteData"]
+#define deleteDataTime [[NSUserDefaults standardUserDefaults] stringForKey:@"deleteTime"]
+
+
