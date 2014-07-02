@@ -118,9 +118,13 @@
 	PersonsInfo *person = [personsInSection objectAtIndex:indexPath.row];
     cell.textLabel.text = person.name;
     UILabel *idlabel = [[UILabel alloc] init];
+    //modify by zyy 2014-07-01在姓名后增加隐藏的人员ID属性
     [idlabel setHidden:YES];
     idlabel.text = person.personID;
-    [cell addSubview:idlabel];
+    //NSLog(@"length:%d",cell.contentView.subviews.count);
+    [[cell contentView ] addSubview:idlabel];
+    //NSLog(@"length:%d",cell.contentView.subviews.count);
+    [idlabel release];
     return cell;
 }
 /*

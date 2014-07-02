@@ -129,7 +129,7 @@
     //NSString *condition = currentPerson.personID;
 	//NSString *condition =  [[[[delegate tableView] cellForRowAtIndexPath:nowIndexPath]textLabel]text];
     //add by zyy 2014-05-13修改为ID过滤，ID藏在了cell的一个subview里
-    NSString *condition =  [[[[[delegate tableView] cellForRowAtIndexPath:nowIndexPath]subviews] objectAtIndex:2] text];
+    NSString *condition =  [[[[[[delegate tableView] cellForRowAtIndexPath:nowIndexPath] contentView] subviews] objectAtIndex:1] text];
 	NSString *sqlString = [NSString stringWithFormat:@"select * from IPAD_A01 where A00 = '%@';",condition];
 	//NSString *sqlString1 = [NSString stringWithFormat:@"select * from IPAD_A01_Function where A0101 = '%@';",condition];
 	//NSArray  *imageArray = [[SQLiteOptions sharedSQLiteOptions] queryWithSQL:sqlString1];
